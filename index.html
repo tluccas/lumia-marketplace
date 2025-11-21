@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Store | Tecnologia e Utilidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="assets/img/favico.svg">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <i class="fa-solid fa-bolt"></i> Lumina Store
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar produtos...">
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="new-product" id="openNewProductBtn"><button>Publicar Produto</button></div>
+            <button id="themeToggle" class="theme-btn" aria-label="Alternar Tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="container hero__inner">
+        <div class="hero__content">
+        <h1 class="hero__title">
+            Tecnologia para sua rotina
+        </h1>
+        <p class="hero__subtitle">
+            Produtos selecionados que unem performance, design e praticidade. Explore nossas ofertas exclusivas.
+        </p>
+        <a href="#go-to-product-grid" class="hero__cta">Ver Ofertas <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero__visual">
+        <div class="hero__mockup">
+            <div class="mockup__glow"></div>
+            <i class="fa-solid fa-headphones hero__icon"></i>
+            <i class="fa-solid fa-stopwatch hero__icon"></i>
+            <i class="fa-solid fa-camera hero__icon"></i>
+            <i class="fa-solid fa-laptop hero__icon"></i>
+            <i class="fa-solid fa-mobile-screen hero__icon"></i>
+            <i class="fa-solid fa-keyboard hero__icon"></i>
+            <i class="fa-solid fa-gamepad hero__icon"></i>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <main class="container">
+
+    <!-- Trust / Benefits Bar -->
+    <section class="benefits" style="user-select: none;">
+    <div class="benefits__item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <span>Frete Grátis acima de R$299</span>
+    </div>
+    <div class="benefits__item">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Garantia 30 dias</span>
+    </div>
+    <div class="benefits__item">
+        <i class="fa-solid fa-headset"></i>
+        <span>Suporte 24/7</span>
+    </div>
+    <div class="benefits__item">
+        <i class="fa-solid fa-credit-card"></i>
+        <span>12x sem juros</span>
+    </div>
+    </section>
+
+    <!-- Destaque da Semana -->
+    <section class="highlight-week">
+    <div class="highlight-week__content">
+        <div class="highlight-week__badge">Semana Tech</div>
+        <h2 class="highlight-week__title">Upgrade total no seu setup</h2>
+        <p class="highlight-week__desc">
+        Aproveite acessórios e dispositivos selecionados para aumentar sua produtividade com estilo.
+        </p>
+        <a href="#go-to-product-grid" class="highlight-week__cta">
+        Ver Produtos <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+    <div class="highlight-week__visual" style="user-select: none;">
+        <div class="highlight-week__card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <span>Setup Premium</span>
+        </div>
+        <div class="highlight-week__card">
+        <i class="fa-solid fa-keyboard"></i>
+        <span>Teclados Mecânicos</span>
+        </div>
+        <div class="highlight-week__card">
+        <i class="fa-solid fa-microphone-lines"></i>
+        <span>Streaming Gear</span>
+        </div>
+    </div>
+    </section>
+
+    <!-- Newsletter / Lead Capture -->
+    <section class="newsletter" id="go-to-product-grid">
+    <div class="newsletter__inner">
+        <div class="newsletter__info">
+        <h3 class="newsletter__title">Receba novidades e ofertas primeiro</h3>
+        <p class="newsletter__text">
+            Assine nossa newsletter e fique por dentro de lançamentos, cupons e seleções especiais.
+        </p>
+        </div>
+        <div class="newsletter-form">
+            <form class="newsletter__form" action="#" method="post" novalidate>
+            <input type="email" name="email" class="newsletter__input" placeholder="Seu melhor e-mail" required />
+            </form>
+            <button class="newsletter__button">
+                Inscrever <i class="fa-solid fa-envelope-open-text"></i>
+            </button>
+        </div>
+    </div>
+    </section>
+        
+        <section class="filters" id="filtersContainer">
+            <button class="filter-btn active" data-category="all">Todos</button>
+            <button class="filter-btn" data-category="Eletrônicos">Eletrônicos</button>
+            <button class="filter-btn" data-category="Wearables">Wearables</button>
+            <button class="filter-btn" data-category="Home Office">Home Office</button>
+            <button class="filter-btn" data-category="Fotografia">Fotografia</button>
+        
+            <input class="filter-input" type="number" id="min-price" placeholder="Preço Mínimo R$" min="0">
+            <input class="filter-input" type="number" id="max-price" placeholder="Preço máximo R$" min="0">
+        </section>
+
+        <section id="productsGrid" class="products-grid">
+            </section>
+
+        <div id="noResults" class="no-results hidden">
+            <i class="fa-regular fa-face-sad-tear"></i>
+            <p>Nenhum produto encontrado para sua busca.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/lucasalvesz/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/tluccas" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p>Desenvolvido por <strong>Alves Dev</strong> &copy; 2025</p>
+        <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.7;">
+            Imagens by <a href="https://unsplash.com/" target="_blank" style="color: inherit;">Unsplash</a>.
+        </p>
+    </footer>
+
+    <div id="productModal" class="modal"> 
+    <div class="modal__content">
+        <button id="closeModalBtn" class="modal__close">&times;</button>
+        <div class="modal__body">
+            <div class="modal__image">
+                <img id="modalImg" src="" alt="">
+            </div>
+            <div class="modal__info">
+                <div id="modalCategories" class="modal__tags-container"></div>
+                
+                <h2 id="modalTitle">Título do Produto</h2>
+                <p id="modalDesc">Descrição detalhada do produto...</p>
+                <i id="modalContact" class="bi bi-whatsapp wpp-icon"> 83 999999</i>
+                <div class="modal__footer">
+                    <span id="modalPrice" class="price">R$ 0,00</span>
+                    <button class="buy-btn">Comprar Agora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="newProductModal" class="modal hidden">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+            <h1>Publicar Novo Produto</h1>
+            <button id="closeProductModalBtn" class="close-modal-btn" type="button" aria-label="Fechar formulário">
+                &times;
+            </button>
+        </div>
+
+        <form id="new-product-form" class="product-form">
+            
+            <div class="form-group">
+                <label for="nome-produto">Nome do produto</label>
+                <input type="text" id="nome-produto" name="nomeProduto" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="imagem-produto">URL da Imagem do Produto</label>
+                <input type="url" id="imagem-produto" name="imagemProduto" required>
+            </div>
+
+            <div class="form-group">
+                  <label>Categoria</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="categoria" value="Eletrônicos"> Eletrônicos</label>
+                        <label><input type="checkbox" name="categoria" value="Wearables"> Wearables</label>
+                        <label><input type="checkbox" name="categoria" value="Home Office"> Home Office</label>
+                        <label><input type="checkbox" name="categoria" value="Fotografia"> Fotografia</label>
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="preco">Preço (R$)</label>
+                <input type="number" id="preco" name="preco" min="0" step="0.01" required>
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Número de Contato</label>
+                <input type="text" id="numero" name="numero" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="cta-button cta-primary">
+                    Salvar Produto
+                </button>
+                <button type="button" id="cancelProductFormBtn" class="cta-button cta-secondary">
+                    Cancelar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+        <div id="chat-button" class="chat-button">💬</div>
+
+    <div id="chat-widget" class="chat-widget hidden">
+        <div id="chat-header" class="chat-header">
+            <span>Astra</span>
+            <button id="close-chat" class="close-chat">✖</button>
+        </div>
+
+        <div id="chat-messages" class="chat-messages"></div>
+
+        <div id="chat-input-area" class="chat-input-area">
+            <input id="chat-input" type="text" placeholder="Digite..." />
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
