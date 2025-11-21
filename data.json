@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "Headphone Premium ANC",
+    "price": 1299.9,
+    "description": "Som de alta fidelidade com cancelamento de ruído ativo e bateria de 30 horas.",
+    "numero": "21 98509-8513"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "category": "Wearables;Eletrônicos",
+    "title": "Smartwatch Fitness Pro",
+    "price": 899.0,
+    "description": "GPS integrado, resistência à água e monitoramento de mais de 100 esportes.",
+    "numero": "11 94232-8515"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Câmera Instantânea Retro",
+    "price": 650.5,
+    "description": "Design clássico com tecnologia moderna. Imprima memórias instantaneamente.",
+    "numero": "31 99853-4804"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&q=80",
+    "category": "Home Office;Eletrônicos",
+    "title": "Setup Desk Stand",
+    "price": 199.9,
+    "description": "Suporte ergonômico de alumínio para monitor e laptop.",
+    "numero": "71 96004-9577"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=80",
+    "category": "Wearables;Eletrônicos",
+    "title": "Smart Watch Series S",
+    "price": 2499.0,
+    "description": "Tela Retina sempre ativa e sensores avançados de oxigenação.",
+    "numero": "61 97154-6081"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?q=80&w=946&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Teclado Mecânico RGB",
+    "price": 450.0,
+    "description": "Switches táteis Blue para digitação rápida e iluminação personalizável.",
+    "numero": "71 96560-8076"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "Caixa de Som Bluetooth",
+    "price": 299.9,
+    "description": "Som 360º à prova d'água, ideal para ambientes externos.",
+    "numero": "71 99165-5379"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "VR Headset NextGen",
+    "price": 3200.0,
+    "description": "Imersão total em realidade virtual com resolução 4K.",
+    "numero": "11 92252-3164"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=500&q=80",
+    "category": "Home Office;Eletrônicos",
+    "title": "Monitor UltraWide 34\"",
+    "price": 2899.9,
+    "description": "Produtividade máxima com tela curva e calibração de cores sRGB.",
+    "numero": "61 92104-8408"
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Lente Prime 50mm",
+    "price": 950.0,
+    "description": "Abertura f/1.8 para retratos com fundo desfocado profissional.",
+    "numero": "81 99091-3144"
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&q=80",
+    "category": "Wearables;Eletrônicos",
+    "title": "Smart Band Activity",
+    "price": 199.0,
+    "description": "Monitoramento de sono e passos com bateria para 20 dias.",
+    "numero": "91 92595-8757"
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1688578735352-9a6f2ac3b70a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Cadeira Ergonômica Mesh",
+    "price": 1200.0,
+    "description": "Conforto para longas jornadas com ajuste lombar e material respirável.",
+    "numero": "61 93218-5785"
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1601856254555-a9c0ebef8af3?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Microfone Podcast USB",
+    "price": 599.9,
+    "description": "Qualidade de estúdio plug-and-play para streaming e reuniões.",
+    "numero": "61 92758-8520"
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Console Portátil X",
+    "price": 2100.0,
+    "description": "Jogos AAA no seu bolso com tela OLED vibrante.",
+    "numero": "41 93743-4394"
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Laptop Stand Aluminum",
+    "price": 150.0,
+    "description": "Eleve seu notebook e melhore a refrigeração com design minimalista.",
+    "numero": "11 94856-7153"
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1557004396-66e4174d7bf6?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "Drone Explorer 4K",
+    "price": 4500.0,
+    "description": "Estabilização de 3 eixos e alcance de 5km de transmissão.",
+    "numero": "51 92445-6548"
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1516961642265-531546e84af2?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Tripé Flexível Gorilla",
+    "price": 120.0,
+    "description": "Fixe sua câmera em qualquer lugar, de galhos a corrimãos.",
+    "numero": "41 96904-4110"
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Mouse Gamer",
+    "price": 180.0,
+    "description": "Previna lesões por esforço repetitivo com design anatômico.",
+    "numero": "21 95283-6217"
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Wearables;Eletrônicos",
+    "title": "Óculos de Sol Audio",
+    "price": 750.0,
+    "description": "Proteção UV e música via condução óssea sem bloquear os ouvidos.",
+    "numero": "71 97422-6481"
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1617654680791-9668175af978?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Ring Light 12\"",
+    "price": 149.9,
+    "description": "Iluminação perfeita para criadores de conteúdo e maquiagem.",
+    "numero": "91 92375-5366"
+  },
+  {
+    "id": 21,
+    "image": "https://images.unsplash.com/photo-1592424002053-21f369ad7fdb?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "Teclado Numérico Wireless",
+    "price": 120.0,
+    "description": "Expanda seu teclado compacto com conexão Bluetooth.",
+    "numero": "11 97238-2383"
+  },
+  {
+    "id": 22,
+    "image": "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Smartphone 5G Pro",
+    "price": 3500.0,
+    "description": "Processador de última geração e câmeras noturnas avançadas.",
+    "numero": "21 99256-8128"
+  },
+  {
+    "id": 23,
+    "image": "https://images.unsplash.com/photo-1733751605002-8634ac96006b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Mousepad Extra Grande",
+    "price": 89.9,
+    "description": "Superfície speed para mouse e teclado, com base emborrachada.",
+    "numero": "61 92303-6158"
+  },
+  {
+    "id": 24,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&q=80",
+    "category": "Home Office;Eletrônicos",
+    "title": "Hub USB-C 7 em 1",
+    "price": 299.0,
+    "description": "Conecte HDMI, USB e cartões SD em uma única porta.",
+    "numero": "31 99775-3505"
+  },
+  {
+    "id": 25,
+    "image": "https://images.unsplash.com/photo-1600577231598-31ea4cb50da3?q=80&w=415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Carregador Portátil 20000mAh",
+    "price": 220.0,
+    "description": "Carga rápida para até 3 dispositivos simultaneamente.",
+    "numero": "31 96470-9262"
+  },
+  {
+    "id": 26,
+    "image": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500&q=80",
+    "category": "Wearables;Eletrônicos",
+    "title": "Óculos VR Basic",
+    "price": 150.0,
+    "description": "Transforme seu smartphone em uma experiência de realidade virtual.",
+    "numero": "41 90013-4554"
+  },
+  {
+    "id": 27,
+    "image": "https://images.unsplash.com/photo-1608377205619-03a0b4c4e270?q=80&w=410&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Luminária de Mesa LED",
+    "price": 130.0,
+    "description": "Controle de temperatura de cor e carregamento sem fio na base.",
+    "numero": "81 91795-3665"
+  },
+  {
+    "id": 28,
+    "image": "https://images.unsplash.com/photo-1486693326701-1ea88c6e2af3?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Mochila Fotográfica",
+    "price": 340.0,
+    "description": "Compartimentos modulares para proteger câmeras e lentes.",
+    "numero": "91 96118-7812"
+  },
+  {
+    "id": 29,
+    "image": "https://images.unsplash.com/photo-1545424273-4dd93a233016?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Kit Filtros ND",
+    "price": 180.0,
+    "description": "Controle a luz em dias ensolarados para vídeos cinematográficos.",
+    "numero": "91 99592-8084"
+  },
+  {
+    "id": 30,
+    "image": "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Roteador Mesh Wi-Fi 6",
+    "price": 890.0,
+    "description": "Cobertura total para sua casa com a mais alta velocidade de conexão.",
+    "numero": "11 97650-3299"
+  },
+  {
+    "id": 31,
+    "image": "https://images.unsplash.com/photo-1629429407756-446d66f5b24e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Webcam 1080p HD",
+    "price": 250.0,
+    "description": "Foco automático e correção de luz para chamadas profissionais.",
+    "numero": "91 98835-8646"
+  },
+  {
+    "id": 32,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+    "category": "Wearables;Eletrônicos",
+    "title": "Tênis Smart Run",
+    "price": 600.0,
+    "description": "Chip integrado que analisa sua pisada e cadência via App.",
+    "numero": "91 93095-1547"
+  },
+  {
+    "id": 33,
+    "image": "https://images.unsplash.com/photo-1625864667534-aa5208d45a87?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Tablet Gráfico Pro",
+    "price": 1500.0,
+    "description": "Para ilustradores digitais, com caneta sensível à pressão.",
+    "numero": "91 97354-3867"
+  },
+  {
+    "id": 34,
+    "image": "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Câmera Film 35mm",
+    "price": 800.0,
+    "description": "Corpo vintage restaurado para amantes da fotografia analógica.",
+    "numero": "11 94282-8271"
+  },
+  {
+    "id": 35,
+    "image": "https://images.unsplash.com/photo-1572721546624-05bf65ad7679?q=80&w=773&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Organizador de Cabos",
+    "price": 45.0,
+    "description": "Kit completo para esconder e organizar fios na sua mesa.",
+    "numero": "91 98351-9826"
+  },
+  {
+    "id": 36,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&q=80",
+    "category": "Wearables;Eletrônicos",
+    "title": "Fones True Wireless",
+    "price": 299.0,
+    "description": "Liberdade total sem fios, com estojo de carregamento compacto.",
+    "numero": "71 90794-5151"
+  },
+  {
+    "id": 37,
+    "image": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "Smart Home Assistant",
+    "price": 350.0,
+    "description": "Controle sua casa por voz. Compatível com lâmpadas e tomadas smart.",
+    "numero": "91 96654-4718"
+  },
+  {
+    "id": 38,
+    "image": "https://images.unsplash.com/photo-1653850827077-b3649a7d23fe?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Wearables;Eletrônicos",
+    "title": "Pulseira de Couro Watch",
+    "price": 120.0,
+    "description": "Pulseira intercambiável de couro legítimo para smartwatches.",
+    "numero": "61 92053-1997"
+  },
+  {
+    "id": 39,
+    "image": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "HD Externo 2TB",
+    "price": 380.0,
+    "description": "Backup seguro e portátil para seus arquivos importantes.",
+    "numero": "81 95753-4467"
+  },
+  {
+    "id": 40,
+    "image": "https://images.unsplash.com/photo-1516724562728-afc824a36e84?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Estabilizador Gimbal",
+    "price": 750.0,
+    "description": "Vídeos de celular suaves e cinemáticos com estabilização de 3 eixos.",
+    "numero": "81 91651-7756"
+  },
+  {
+    "id": 41,
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Ultra Mini M1",
+    "price": 4800.0,
+    "description": "Poder de desktop em um design ultracompacto e silencioso.",
+    "numero": "41 90510-2333"
+  },
+  {
+    "id": 42,
+    "image": "https://images.unsplash.com/photo-1758272248920-a39302af6d5f?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Caixa de Som Retro",
+    "price": 400.0,
+    "description": "Estilo vintage com tecnologia Bluetooth e rádio FM integrado.",
+    "numero": "11 97595-1472"
+  },
+  {
+    "id": 43,
+    "image": "https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Wearables;Eletrônicos",
+    "title": "Monitor Cardíaco Peitoral",
+    "price": 250.0,
+    "description": "Precisão máxima para atletas de alta performance.",
+    "numero": "11 96587-6776"
+  },
+  {
+    "id": 44,
+    "image": "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?w=500&q=80",
+    "category": "Eletrônicos;Home Office",
+    "title": "AirTag Tracker",
+    "price": 199.0,
+    "description": "Nunca mais perca suas chaves ou mochila.",
+    "numero": "71 97832-1465"
+  },
+  {
+    "id": 45,
+    "image": "https://images.unsplash.com/photo-1589532768434-a92c95dad7cb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Cartão SD 128GB Pro",
+    "price": 180.0,
+    "description": "Alta velocidade de gravação para vídeos 4K e fotos em RAW.",
+    "numero": "91 92728-1676"
+  },
+  {
+    "id": 46,
+    "image": "https://images.unsplash.com/photo-1590753684039-6adc03c5d6dc?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Calculadora Mecânica",
+    "price": 110.0,
+    "description": "Teclas estilo máquina de escrever para um toque retrô na mesa.",
+    "numero": "71 91742-4424"
+  },
+  {
+    "id": 47,
+    "image": "https://images.unsplash.com/photo-1523437345381-db5ee4df9c04?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Eletrônicos;Home Office",
+    "title": "Ventilador USB Portátil",
+    "price": 60.0,
+    "description": "Refresco pessoal silencioso para conectar no computador.",
+    "numero": "21 92688-7415"
+  },
+  {
+    "id": 48,
+    "image": "https://images.unsplash.com/photo-1651752090085-50375d90bf8b?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Wearables;Eletrônicos",
+    "title": "Smart Ring Health",
+    "price": 1100.0,
+    "description": "Tecnologia avançada de saúde no formato de um anel discreto.",
+    "numero": "81 96824-6711"
+  },
+  {
+    "id": 49,
+    "image": "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=500&q=80",
+    "category": "Fotografia;Eletrônicos",
+    "title": "Kit Limpeza Câmera",
+    "price": 80.0,
+    "description": "Soprador, pincel e pano de microfibra para cuidar do seu equipamento.",
+    "numero": "71 95954-5160"
+  },
+  {
+    "id": 50,
+    "image": "https://images.unsplash.com/photo-1581428982868-e410dd047a90?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Home Office;Eletrônicos",
+    "title": "Apoio de Pés Ergonômico",
+    "price": 140.0,
+    "description": "Melhore a circulação e postura enquanto trabalha sentado.",
+    "numero": "21 97119-7106"
+  }
+]
