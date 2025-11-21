@@ -681,9 +681,6 @@ body.no-scroll {
   text-transform: uppercase;
 }
 
-/* (Chat styles removed: not essential. Re-add if chatbot stays) */
-
-/* (Form creation modal styles removed for brevity – keep only product modal. Re-add if needed.) */
 #newProductModal .modal-content {
   width: 100%;
   max-width: 500px;
