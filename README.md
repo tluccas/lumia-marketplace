@@ -3,14 +3,19 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ---
 
 ## 🔹 Descrição
 
-**Lumina Store** é uma aplicação web de e-commerce moderna e responsiva, desenvolvida durante a **Imersão Dev com Google Gemini**. O projeto simula uma loja virtual de eletrônicos e acessórios, oferecendo funcionalidades como catálogo dinâmico, filtros avançados, modo escuro e um assistente virtual inteligente integrado.
+**Lumina Store** é uma aplicação web de Marketplace moderna e responsiva, desenvolvida para concorrer a melhores projetos na **Imersão Dev com Google Gemini**. O projeto simula uma loja virtual de eletrônicos e acessórios, oferecendo funcionalidades como catálogo dinâmico, filtros avançados, modo escuro e um assistente virtual inteligente integrado.
 
 O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), focando em performance e boas práticas. A grande inovação é a integração com a **API do Google Gemini**, que alimenta o chatbot "Astra", capaz de responder dúvidas sobre produtos e interagir com o usuário.
+
+> [!NOTE]  
+> O chatbot é uma implementação simples e representa uma forma mínima sem estrutra correta para produção para atender aos
+> requisitos do desafio
 
 ---
 
@@ -29,10 +34,15 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 ## 🔹 Tecnologias utilizadas
 
 ### Frontend
-- HTML5 Semântico
-- CSS3 (Flexbox, Grid, CSS Variables)
-- JavaScript (ES6 Modules)
-- FontAwesome (Ícones)
+- HTML5
+- CSS3
+- JavaScript
+- FontAwesome, Bootstrap (Ícones)
+
+### Backend
+- Node.js (Runtime Environment)
+- Express (Framework minimalista para API)
+- Camada simples com Node.js para intermediar a comunicação com a API do Google Gemini. Essa camada simplificada gerencia o fluxo de mensagens do chatbot.
 
 ### Integrações
 - Google Gemini API (Inteligência Artificial)
@@ -43,15 +53,18 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 ## 📂 Estrutura do Projeto
 ```text
 projeto_imersao_dev_gemini/
-├─ js/
-│    ├─ dom.js          # Seleção de elementos do DOM
-│    ├─ main.js         # Ponto de entrada e inicialização
-│    ├─ modal.js        # Lógica das janelas modais
-│    ├─ newProduct.js   # Lógica de criação de produtos
-│    ├─ render.js       # Renderização do grid de produtos
-│    ├─ theme.js        # Controle do tema (Dark/Light)
-│    └─ utils.js        # Funções utilitárias (formatação, etc)
-├─ chat.css             # Estilos específicos do Chatbot
+├─ api-imersao-dev/     # Backend (Node.js + Express)
+│    ├─ .env            # Variáveis de ambiente (API Key)
+│    ├─ index.js        # Servidor e rotas da API
+│    └─ package.json    # Dependências do backend
+├─ js/                  # Frontend (Arquitetura MVC)
+│    ├─ components/     # Gerenciamento de estado e filtros
+│    ├─ controllers/    # Controladores (Chat, Produto, Tema)
+│    ├─ services/       # Serviços de comunicação (API)
+│    ├─ utils/          # Utilitários (DOM, Formatadores)
+│    ├─ views/          # Camada de visualização (Modal, Produto)
+│    └─ main.js         # Ponto de entrada da aplicação
+├─ assets/              # Imagens e recursos estáticos
 ├─ data.json            # Base de dados dos produtos
 ├─ index.html           # Estrutura principal
 ├─ style.css            # Estilos globais da aplicação
