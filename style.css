@@ -60,7 +60,6 @@ body.no-scroll {
   padding: 0 20px;
 }
 
-/* Header & Nav */
 /* ===== Header ===== */
 .header {
   position: sticky;
@@ -90,7 +89,6 @@ body.no-scroll {
   gap: 8px;
 }
 
-/* Barra de Busca */
 /* ===== Barra de Busca ===== */
 .search-bar {
   display: flex;
@@ -133,7 +131,6 @@ body.no-scroll {
   background-color: var(--accent-hover);
 }
 
-/* Theme Toggle */
 .theme-btn {
   background: none;
   border: 1px solid var(--border-color);
@@ -186,7 +183,6 @@ body.no-scroll {
   display: flex;
   background: var(--bg-color);
   color: var(--text-primary);
-  /* Corrigido para texto visível */
   border: 1px solid var(--border-color);
   border-radius: 50px;
   padding: 0.5rem 1rem;
@@ -209,7 +205,6 @@ body.no-scroll {
     linear-gradient(90deg, var(--bg-color) 35%, rgba(0,0,0,0) 100%),
     linear-gradient(to top, var(--bg-color) 0%, rgba(0,0,0,0) 20%),
     url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop');
-    /* https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop */
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
@@ -813,7 +808,6 @@ body.no-scroll {
   color: var(--text-primary);
 }
 
-/* Chat Widget Styles (restored minimal) */
 #chat-button {
   position: fixed;
   bottom: 25px;
@@ -930,7 +924,7 @@ body.no-scroll {
   background: var(--accent-hover);
 }
 
-/* Message appear animation */
+/* Animação "digitando" */
 .msg-animated {
   opacity: 0;
   transform: translateY(10px);
@@ -943,7 +937,7 @@ body.no-scroll {
   }
 }
 
-/* Typing indicator */
+/* indicador da animação */
 .typing-indicator {
   width: fit-content;
   background: #646464;
@@ -998,7 +992,6 @@ body.no-scroll {
   object-fit: cover;
   min-height: 300px;
   display: block;
-  /* Remove espaço fantasma abaixo da img */
 }
 
 .modal__info {
@@ -1030,7 +1023,6 @@ body.no-scroll {
   background-color: var(--accent-hover);
 }
 
-/* Footer */
 /* ===== Footer ===== */
 .footer {
   text-align: center;
