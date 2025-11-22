@@ -42,16 +42,15 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 - HTML5
 - CSS3
 - JavaScript
-- FontAwesome, Bootstrap (Ícones)
+- FontAwesome, Bootstrap Icons 
 
 ### Backend
 - Node.js (Runtime Environment)
-- Express (Framework minimalista para API)
 - Camada simples com Node.js para intermediar a comunicação com a API do Google Gemini. Essa camada simplificada gerencia o fluxo de mensagens do chatbot.
 
 ### Integrações
 - Google Gemini API (Inteligência Artificial)
-- Unsplash (Imagens dos produtos)
+- Unsplash (Imagens ilustrativas do site)
 
 ---
 
