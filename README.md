@@ -117,7 +117,7 @@ O projeto utiliza um servidor Node.js simples para intermediar a comunicação s
 
 ---
 ## Preview
-- O botão chat de é fixo, porém no preview está no footer
+- O botão de chat é fixo, porém no preview é possível visualiza-lo no footer
 <img src="assets/img/lumia-marketplace.png">
 
 Desenvolvido por **Lucas Alves** durante a Imersão Dev Gemini.
