@@ -57,7 +57,7 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 ## 📂 Estrutura do Projeto
 ```text
 projeto_imersao_dev_gemini/
-├─ api-imersao-dev/     # Backend (Node.js + Express)
+├─ api-imersao-dev/     # Req API do Gemini (Node.js)
 │    ├─ .env            # Variáveis de ambiente (API Key)
 │    ├─ index.js        # Servidor e rotas da API
 │    └─ package.json    # Dependências do backend
