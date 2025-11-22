@@ -1049,3 +1049,105 @@ body.no-scroll {
 .hidden {
   display: none;
 }
+
+/* ===== Responsividade Mobile ===== */
+
+@media (max-width: 768px) {
+  .header__container {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    order: 1;
+    flex-grow: 1;
+  }
+
+  .theme-btn {
+    order: 2;
+  }
+
+  .search-bar {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .new-product {
+    order: 4;
+    width: 100%;
+    display: flex;
+  }
+  
+  .new-product button {
+    width: 100%;
+  }
+
+  .hero {
+    text-align: center;
+    background-position: center;
+  }
+
+  .hero__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__visual {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .hero__mockup {
+    width: 280px;
+    height: 280px;
+  }
+
+  .filters {
+    gap: 8px;
+  }
+
+  .filter-btn {
+    flex: 1 1 auto;
+  }
+
+  .filter-input {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .modal__content {
+    width: 95%;
+    margin: 10px;
+    max-height: 85vh;
+  }
+  
+  .modal__info {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #chat-widget {
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    bottom: 90px;
+    height: 50vh;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .newsletter__input, .newsletter__button {
+    width: 100%;
+  }
+}
