@@ -19,6 +19,9 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 > [!NOTE]  
 > O chatbot é uma implementação simples e representa uma forma mínima sem estrutra correta para produção, foi feito de uma maneira simples para que atenda aos requisitos do desafio
 
+> [!WARNING]  
+> O ponto do chatbot é opcional pois não tenho certeza se é um parâmetro válido para desqualificação da seleção de melhores projetos
+
 ---
 
 ## 🔹 Funcionalidades
@@ -43,9 +46,12 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 - JavaScript
 - FontAwesome, Bootstrap Icons 
 
-### Requisição ao Gemini
+### Requisição ao Gemini (Opcional)
 - Node.js (Runtime Environment)
 - Camada simples com Node.js para intermediar a comunicação com a API do Google Gemini. Essa camada simplificada gerencia o fluxo de mensagens do chatbot.
+
+> [!WARNING]  
+> Essa etapa é opcional pois não tenho certeza se encaixa-se para desqualificação da seleção de melhores projetos
 
 ### Integrações
 - Google Gemini API (Inteligência Artificial)
@@ -82,8 +88,8 @@ projeto_imersao_dev_gemini/
 - **Node.js** instalado (versão 16 ou superior recomendada).
 - Uma chave de API do **Google Gemini**.
 
-### 1. Configurando o Backend (API)
-O projeto utiliza um servidor Node.js simples para intermediar a comunicação segura com a API do Gemini.
+### 1. Configurando as requisições ao Gemini (Opcional)
+O projeto utiliza um servidor Node.js simples para intermediar a comunicação segura com a API do Gemini, esse funcionamento é opcional e só afeta as respostas recebidas do Gemini no chat.
 
 1. Abra o terminal e navegue até a pasta da API:
    ```bash
