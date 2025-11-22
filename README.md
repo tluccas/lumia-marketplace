@@ -43,7 +43,7 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 - JavaScript
 - FontAwesome, Bootstrap Icons 
 
-### Backend
+### Requisição ao Gemini
 - Node.js (Runtime Environment)
 - Camada simples com Node.js para intermediar a comunicação com a API do Google Gemini. Essa camada simplificada gerencia o fluxo de mensagens do chatbot.
 
@@ -78,7 +78,7 @@ projeto_imersao_dev_gemini/
 
 ## 🚀 Como Utilizar
 
-### Pré-requisitos
+### Pré-requisitos (Opcionais)
 - **Node.js** instalado (versão 16 ou superior recomendada).
 - Uma chave de API do **Google Gemini**.
 

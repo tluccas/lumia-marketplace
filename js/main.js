@@ -1,4 +1,4 @@
-import { fetchProdutos } from "./services/ApiService.js";
+import { fetchProdutos } from "./services/DataService.js";
 import { setProducts } from "./components/state.js";
 import { renderProducts } from "./views/ProductView.js";
 import { setupFilters, applyFilters } from "./components/filters.js";

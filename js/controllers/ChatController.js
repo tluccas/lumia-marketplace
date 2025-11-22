@@ -1,6 +1,6 @@
 const CHAT_DEBUG = false;
 
-const NODE_API_URL = "http://localhost:3000/gerar"; // rota do backend
+const NODE_API_URL = "http://localhost:3000/gerar"; // rota para fazer req ao gemini 
 export default function chatbot() {
   const chatButton = document.getElementById("chat-button");
   const chatWidget = document.getElementById("chat-widget");
