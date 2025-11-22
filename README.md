@@ -20,7 +20,7 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 > O chatbot é uma implementação simples e representa uma forma mínima sem estrutra correta para produção, foi feito de uma maneira simples para que atenda aos requisitos do desafio
 
 > [!WARNING]  
-> O ponto do chatbot é opcional pois não tenho certeza se é um parâmetro válido para desqualificação da seleção de melhores projetos
+> O ponto do chatbot é opcional pois não tenho certeza se é um parâmetro válido para desqualificação da seleção de melhores projetos apesar de se tratar de uma implementação simples
 
 ---
 
