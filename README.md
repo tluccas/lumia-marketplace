@@ -66,14 +66,8 @@ projeto_imersao_dev_gemini/
 │    ├─ .env            # Variáveis de ambiente (API Key)
 │    ├─ index.js        # Servidor e rotas da API
 │    └─ package.json    # Dependências do backend
-├─ js/                  # Frontend (Arquitetura MVC)
-│    ├─ components/     # Gerenciamento de estado e filtros
-│    ├─ controllers/    # Controladores (Chat, Produto, Tema)
-│    ├─ services/       # Serviços de comunicação (API)
-│    ├─ utils/          # Utilitários (DOM, Formatadores)
-│    ├─ views/          # Camada de visualização (Modal, Produto)
-│    └─ main.js         # Ponto de entrada da aplicação
-├─ assets/              # Imagens e recursos estáticos
+├─ assets/              # Icone e Background
+├─ app.js               # Todo código JavaScript
 ├─ data.json            # Base de dados dos produtos
 ├─ index.html           # Estrutura principal
 ├─ style.css            # Estilos globais da aplicação
