@@ -17,8 +17,7 @@ O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), fo
 > Este projeto é apenas um exemplo demonstrativo e não representa um produto final ou um projeto para produção.
 
 > [!NOTE]  
-> O chatbot é uma implementação simples e representa uma forma mínima sem estrutra correta para produção para atender aos
-> requisitos do desafio
+> O chatbot é uma implementação simples e representa uma forma mínima sem estrutra correta para produção, foi feito de uma maneira simples para que atenda aos requisitos do desafio
 
 ---
 
