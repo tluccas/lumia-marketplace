@@ -91,9 +91,9 @@ projeto_imersao_dev_gemini/
 ### 1. Configurando as requisições ao Gemini (Opcional)
 O projeto utiliza um servidor Node.js simples para intermediar a comunicação segura com a API do Gemini, esse funcionamento é opcional e só afeta as respostas recebidas do Gemini no chat.
 
-1. Abra o terminal e navegue até a pasta da API:
+1. Abra o terminal e navegue até a pasta onde encontra-se o node:
    ```bash
-   cd api-imersao-dev
+   cd node-imersao-dev
    ```
 
 2. Instale as dependências do projeto:
@@ -101,12 +101,12 @@ O projeto utiliza um servidor Node.js simples para intermediar a comunicação s
    npm install
    ```
 
-3. Crie um arquivo chamado `.env` dentro da pasta `api-imersao-dev` e adicione sua chave de API:
+3. Crie um arquivo chamado `.env` dentro da pasta `node-imersao-dev` e adicione sua chave de API do Gemini:
    ```env
    GEMINI_API_KEY=sua_chave_aqui
    ```
 
-4. Inicie o servidor Node.js:
+4. Inicie o Node.js:
    ```bash
    node index.js
    ```
