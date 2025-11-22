@@ -116,5 +116,8 @@ O projeto utiliza um servidor Node.js simples para intermediar a comunicação s
 3. A aplicação estará disponível (geralmente em `http://127.0.0.1:5500` ou similar).
 
 ---
+## Preview
+- O botão chat de é fixo, porém no preview está no footer
+<img src="assets/img/lumia-marketplace.png">
 
 Desenvolvido por **Lucas Alves** durante a Imersão Dev Gemini.
