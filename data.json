@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "image": "https://images.unsplash.com/photo-1516961642265-531546e84af2?w=500&q=80",
+    "image": "https://images.unsplash.com/photo-1587204760600-77d8d18d143e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Fotografia;Eletrônicos",
     "title": "Tripé Flexível Gorilla",
     "price": 120.0,
@@ -244,7 +244,7 @@
   },
   {
     "id": 28,
-    "image": "https://images.unsplash.com/photo-1486693326701-1ea88c6e2af3?w=500&q=80",
+    "image": "https://images.unsplash.com/photo-1622560481156-01fc7e1693e6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Fotografia;Eletrônicos",
     "title": "Mochila Fotográfica",
     "price": 340.0,
@@ -352,7 +352,7 @@
   },
   {
     "id": 40,
-    "image": "https://images.unsplash.com/photo-1516724562728-afc824a36e84?w=500&q=80",
+    "image": "https://images.unsplash.com/photo-1643917367987-767af5dc9c21?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Fotografia;Eletrônicos",
     "title": "Estabilizador Gimbal",
     "price": 750.0,
@@ -388,7 +388,7 @@
   },
   {
     "id": 44,
-    "image": "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?w=500&q=80",
+    "image": "https://images.unsplash.com/photo-1640631826644-ff6a6337a7ff?q=80&w=415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Eletrônicos;Home Office",
     "title": "AirTag Tracker",
     "price": 199.0,
