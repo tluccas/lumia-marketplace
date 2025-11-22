@@ -14,7 +14,7 @@
 O frontend é construído com **HTML5, CSS3 e JavaScript** puro (Vanilla JS), focando em performance e boas práticas. A grande inovação é a integração com a **API do Google Gemini**, que alimenta o chatbot "Astra", capaz de responder dúvidas sobre produtos e interagir com o usuário.
 
 > [!IMPORTANT]  
-> Este projeto é apenas um exemplo demonstrativo e não representa um produto final nem projeto para produção.
+> Este projeto é apenas um exemplo demonstrativo e não representa um produto final ou um projeto para produção.
 
 > [!NOTE]  
 > O chatbot é uma implementação simples e representa uma forma mínima sem estrutra correta para produção para atender aos
